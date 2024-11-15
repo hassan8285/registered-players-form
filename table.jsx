@@ -4,6 +4,26 @@ import React, { useState } from 'react';
 function Table() {
     const initialPlayers = [
         { key: '1', No: '1', name: 'maxKINGxLIVE' },
+        
+        { key: '1', No: '1', name: 'maxKINGxLIVE' },
+
+        { key: '1', No: '1', name: 'maxKINGxLIVE' },
+
+        { key: '1', No: '1', name: 'maxKINGxLIVE' },
+
+        { key: '1', No: '1', name: 'maxKINGxLIVE' },
+
+        { key: '1', No: '1', name: 'maxKINGxLIVE' },
+
+        { key: '1', No: '1', name: 'maxKINGxLIVE' },
+
+        { key: '1', No: '1', name: 'maxKINGxLIVE' },
+
+        { key: '1', No: '1', name: 'maxKINGxLIVE' },
+
+        { key: '1', No: '1', name: 'maxKINGxLIVE' }
+
+
        
     ];
 

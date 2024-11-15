@@ -1,0 +1,36 @@
+.table-container {
+  padding: 20px;
+  background-color: #f4f4f4; /* Light background for the container */
+  border-radius: 8px; /* Rounded corners for the container */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+.player-table {
+  width: 100%; /* Full width */
+  border-collapse: collapse; /* Collapse borders */
+  margin-top: 10px; /* Margin at the top */
+}
+
+.player-table th, .player-table td {
+  padding: 12px; /* Padding for table cells */
+  text-align: left; /* Align text to the left */
+  border: 1px solid #ddd; /* Light gray border */
+}
+
+.player-table th {
+  background-color: #4CAF50; /* Green background for header */
+  color: white; /* White text for header */
+}
+
+.player-table tr:nth-child(even) {
+  background-color: #f2f2f2; /* Alternate row colors */
+}
+
+.player-table tr:hover {
+  background-color: #ddd; /* Highlight row on hover */
+  cursor: pointer; /* Change cursor on hover */
+}
+
+.player-table th:first-child, .player-table td:first-child {
+  border-left: 5px solid #4CAF50; /* Green left border for first column */
+}
